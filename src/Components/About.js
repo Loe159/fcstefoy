@@ -7,7 +7,7 @@ const About = () => {
       <div className=' max-container flex justify-center items-center gap-24 padding-hero-y padding-x h-full max-xl:gap-7 max-lg:flex-col'>
         <div className=' flex-1 w-full'>
           <div className=' bg-[#f03821] flex justify-end pt-10 pl-10 max-sm:pt-5 max-sm:pl-5'>
-            <img src={img} alt="aboutImg" className=' object-cover object-center max-lg:w-full'/>
+            <img src={img} alt="aboutImg" className=' object-cover object-center w-full max-lg:w-full'/>
           </div>
         </div>
 
