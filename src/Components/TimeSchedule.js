@@ -13,7 +13,7 @@ const TimeSchedule = () => {
       <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>Nos évènements</p>
 
       <div className=' max-w-[40%] m-auto text-6xl font-semibold leading-[70px] mt-5 mb-20 text-center max-lg:text-5xl max-lg:leading-[50px] max-md:max-md:max-w-[100%] max-sm:text-3xl'>
-        <h1>Évènements tout au long de l'année</h1>
+        <h1>Année 2024</h1>
       </div>
 
       <div className=' grid grid-cols-6 max-w-[1130px] m-auto gap-2 max-lg:grid-cols-4 max-sm:grid-cols-2'>

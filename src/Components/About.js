@@ -15,7 +15,7 @@ const About = () => {
           <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>MOT DU PRÉSIDENT</p>
         
           <div className=' my-7 text-5xl leading-[60px] font-semibold text-black max-xl:text-4xl max-xl:my-4 max-lg:my-7 max-lg:text-5xl max-lg:leading-[60px] max-sm:text-3xl'>
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+            <h1>FABIEN MEZARD</h1>
           </div>
 
           <p className='font text-lg text-slate-800'>
