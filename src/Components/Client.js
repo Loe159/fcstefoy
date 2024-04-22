@@ -37,10 +37,10 @@ const Client = () => {
         </div>
 
         <div className=' flex-1'>
-          <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>CLIENT FEEDBACK</p>
+          <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>NOS PARTENAIRES</p>
           <div className=' my-7 text-5xl leading-[60px] font-semibold text-black max-sm:text-3xl'>
-            <h1>WHAT OUR CLIENT THINK</h1>
-            <h1>ABOUT OUR GYM</h1>
+            <h1>CE QU'ILS PENSENT</h1>
+            <h1>DU CLUB</h1>
           </div>
 
         <div className=' flex relative'>
@@ -49,7 +49,7 @@ const Client = () => {
           </p>
         </div>
 
-          <h1 className=' text-xl font-semibold flex gap-4 items-center'>{client[currSlide].clientName}<span className=' text-slate-500 text-base'>Gym Trainer</span></h1>
+          <h1 className=' text-xl font-semibold flex gap-4 items-center'>{client[currSlide].clientName}<span className=' text-slate-500 text-base'>Entraineur</span></h1>
         
           <div className=' flex text-4xl mt-20 justify-start max-lg:mt-5'>
             {client.map((val,index)=>(

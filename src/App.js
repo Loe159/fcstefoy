@@ -1,16 +1,14 @@
 import React, { useState } from 'react'
 import Nav from './Components/Nav'
-import About from './Components/About'
-import Services from './Components/Services'
-import Client from './Components/Client'
-import Gallery from './Components/Gallery'
-import TeamMembers from './Components/TeamMembers'
-import Offer from './Components/Offer'
-import TimeSchedule from './Components/TimeSchedule'
-import Contact from './Components/Contact'
-import Blog from './Components/Blog'
-import Footer from './Components/Footer'
-import HeroSection from './Components/HeroSection'
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
+import Home from "./pages";
+import ContactUs from "./pages/contact";
+import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => {
 
@@ -27,22 +25,23 @@ const App = () => {
     }
    })
 
-  return (
-    <div className='App'>
-        <Nav nav={nav}/>
-        <HeroSection />
-        <About />
-        <Services />
-        <Client />
-        <Gallery />
-        <TeamMembers />
-        <Offer />
-        <TimeSchedule />
-        <Contact />
-        <Blog />
-        <Footer nav={nav}/>
-    </div>
-  )
+    return (
+        <div className='App'>
+        <Router>
+            <Nav nav={nav}/>
+            <ScrollToTop/>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/contact" element={<ContactUs />} />
+                <Route
+                    path="/contact"
+                    element={<ContactUs />}
+                />
+            </Routes>
+            <Footer nav={nav}/>
+        </Router>
+        </div>
+    );
 }
 
 export default App
