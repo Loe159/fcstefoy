@@ -12,8 +12,9 @@ import img8 from "../assets/img-8.jpg"
 import img9 from "../assets/img-20.jpg"
 import img10 from "../assets/img-21.jpg"
 
-import mezard from "../assets/fabien-mezard.jpg"
+import mezard from "../assets/fabien-mezard2.jpg"
 import sassi from "../assets/hosni-sassi.jpg"
+import vindry from "../assets/dominique-vindry.jpg"
 import hendrickx from "../assets/fabienne-hendrickx.jpg"
 import pichard from "../assets/elisabeth-pichard.jpg"
 import fernoux from "../assets/lucas-fernoux.jpg"
@@ -91,7 +92,7 @@ export const teamMembers =[
         name:"Hosni SASSI"
     },
     {
-        img:img8,
+        img:vindry,
         role:"Trésorier",
         name:"Dominique VINDRY"
     },
