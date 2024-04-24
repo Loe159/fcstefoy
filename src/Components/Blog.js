@@ -8,8 +8,7 @@ const Blog = () => {
         <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>ACTUALITÉ</p>
 
         <div className='text-6xl font-semibold leading-[70px] mt-5 mb-20 text-center max-lg:text-5xl max-lg:leading-[50px] max-sm:text-3xl'>
-          <h1>DERNIÈRES NOUVELLES</h1>
-          <h1>DE NOTRE BLOG</h1>
+          <h1>Plongez dans les dernières tendances.</h1>
         </div>
 
         <div className='grid grid-cols-2 gap-10 max-md:grid-cols-1'>

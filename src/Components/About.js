@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../assets/img-6.jpg"
+import img from "../assets/fabien-mezard.jpg"
 
 const About = () => {
   return (
@@ -18,12 +18,8 @@ const About = () => {
             <h1>FABIEN MEZARD</h1>
           </div>
 
-          <p className='font text-lg text-slate-800'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, blanditiis dicta enim harum id in ipsam labore magni minima obcaecati pariatur possimus quas qui quo rerum similique suscipit vitae voluptatum.
-          </p>
-
-          <p className=' font text-lg text-slate-500 mt-5 mb-14  max-xl:mb-8'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis cumque cupiditate deserunt distinctio doloribus facere fugiat id ipsa ipsam, laborum nemo nihil perspiciatis praesentium quaerat quibusdam veritatis vitae voluptate?
+          <p className='font text-lg text-slate-800 text-justify'>
+            Avec détermination et engagement, nous poursuivons notre chemin vers l'excellence, portés par l'esprit d'unité et la volonté constante de grandir. Merci de votre soutien indéfectible et de votre attachement à nos valeurs. Allez le FC Sainte Foy Lès Lyon !
           </p>
 
         </div>

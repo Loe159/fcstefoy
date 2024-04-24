@@ -3,7 +3,6 @@ import { footer } from '../Data/Data'
 import logo from "../assets/logo.png"
 
 import {BsFacebook} from "react-icons/bs"
-import {FaGlobe} from "react-icons/fa6"
 import {BsInstagram, BsTiktok} from "react-icons/bs"
 
 import {TbArrowBigUpFilled} from "react-icons/tb"
@@ -16,7 +15,7 @@ const Footer = ({nav}) => {
 
   return (
     <section className=' text-white min-h-[65vh] w-full bg-footer-pattern bg-center bg-cover bg-no-repeat'>
-        {nav ? <Link to="/"><div className='bg-[#f03821] w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer hover:bg-black hover:border-2 hover:border-[#f03821]'><TbArrowBigUpFilled /></div></Link>  : ""}
+        {nav ? <a href="#root"><div className='bg-[#f03821] w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer hover:bg-black hover:border-2 hover:border-[#f03821]'><TbArrowBigUpFilled /></div></a>  : ""}
       <div className='max-container grid grid-cols-3 gap-10 padding-hero-y px-20 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:px-10 max-sm:grid-cols-1'>
         {footer.map((val)=>(
           <div key={val.title}>  
@@ -35,8 +34,7 @@ const Footer = ({nav}) => {
           </Link>
 
 
-          <div className=' flex items-center gap-6 cursor-pointer text-2xl mt-[35px] text-slate-200 max-sm:text-xl'>
-            <a target={"_blank"} rel={"noreferrer"} href="https://fcstefoy1997.fr/"><FaGlobe className=' hover:-scale-x-110 duration-300' /></a>
+          <div className='flex items-center gap-6 cursor-pointer text-2xl mt-[35px] text-slate-200 max-sm:text-xl'>
             <a target={"_blank"} rel={"noreferrer"} href="https://www.tiktok.com/@fcsaintefoyleslyon"><BsTiktok className=' hover:-scale-x-110 duration-300'/></a>
             <a target={"_blank"} rel={"noreferrer"} href="https://www.facebook.com/SainteFoyLesLyonFootballClub"><BsFacebook className=' hover:-scale-x-110 duration-300'/></a>
             <a target={"_blank"} rel={"noreferrer"} href="https://www.instagram.com/fcstefoyleslyon/"><BsInstagram className=' hover:-scale-x-110 duration-300' /></a>

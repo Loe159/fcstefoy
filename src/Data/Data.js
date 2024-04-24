@@ -2,11 +2,7 @@ import {LiaHandshakeSolid} from "react-icons/lia";
 import {PiGraphLight} from "react-icons/pi";
 import {BsGraphUp, BsHeartPulse} from "react-icons/bs"
 
-import {AiOutlineArrowRight} from "react-icons/ai"
 import img1 from "../assets/img-8.jpg"
-import img2 from "../assets/img-9.jpg"
-import img3 from "../assets/img-10.jpg"
-import img4 from "../assets/img-11.jpg"
 import img5 from "../assets/img-12.jpg"
 
 import img6 from "../assets/img-6.jpg"
@@ -15,6 +11,12 @@ import img8 from "../assets/img-8.jpg"
 
 import img9 from "../assets/img-20.jpg"
 import img10 from "../assets/img-21.jpg"
+
+import mezard from "../assets/fabien-mezard.jpg"
+import sassi from "../assets/hosni-sassi.jpg"
+import hendrickx from "../assets/fabienne-hendrickx.jpg"
+import pichard from "../assets/elisabeth-pichard.jpg"
+import fernoux from "../assets/lucas-fernoux.jpg"
 
 
 
@@ -27,23 +29,19 @@ export const navLinks = [
 export const services = [
     {
         icon:<LiaHandshakeSolid />,
-        label:"RESPECT",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut autem deleniti ducimus impedit iure.",
+        label:"RESPECT"
     },
     {
         icon:<BsHeartPulse />,
-        label:"PLAISIR",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti eos error est expedita maiores odio quo tempora.",
+        label:"PLAISIR"
     },
     {
         icon:<PiGraphLight />,
-        label:"PARTAGE",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis itaque pariatur tempore! Accusantium assumenda.",
+        label:"PARTAGE"
     },
     {
         icon:<BsGraphUp />,
-        label:"PROGRÈS",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aperiam corporis cum cumque delectus eos error.",
+        label:"PROGRÈS"
     }
 ]
 
@@ -83,19 +81,34 @@ export const client = [
 
 export const teamMembers =[
     {
-        img:img6,
+        img:mezard,
         role:"Président",
-        name:"Jhon Sunsaev"
+        name:"Fabien MEZARD"
     },
     {
-        img:img7,
-        role:"Trésorier",
-        name:"Thamlus"
+        img:sassi,
+        role:"Président Délégué",
+        name:"Hosni SASSI"
     },
     {
         img:img8,
-        role:"Secrétaire",
-        name:"Jason"
+        role:"Trésorier",
+        name:"Dominique VINDRY"
+    },
+    {
+        img:hendrickx,
+        role:"Vice-Trésorière",
+        name:"Fabienne HENDRICKX"
+    },
+    {
+        img:pichard,
+        role:'Secrétaire Générale',
+        name:"Élisabeth PICHARD"
+    },
+    {
+        img:fernoux,
+        role:"Vice-Secrétaire Général",
+        name:"Lucas FERNOUX"
     },
 ]
 
@@ -272,8 +285,8 @@ export const footer = [
     {
         title:"RESSOURCES",
         footerLinks:[
-            {link:"Gallerie Photo"},
-            {link:"Blog"},
+            {link:"Gallerie photo"},
+            {link:"Actualité"},
             {link:"Vie du club"},
         ]
     }

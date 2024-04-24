@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
-import {events, teamMembers} from "../Data/Data";
-import {BiLogoFacebook} from "react-icons/bi";
-import {BsInstagram, BsTwitter} from "react-icons/bs";
-import {FaGlobe} from "react-icons/fa6";
+import {events} from "../Data/Data";
 const TimeSchedule = () => {
 
   const [active,setActive] = useState("1")
@@ -13,22 +10,20 @@ const TimeSchedule = () => {
       <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>Nos évènements</p>
 
       <div className=' max-w-[40%] m-auto text-6xl font-semibold leading-[70px] mt-5 mb-20 text-center max-lg:text-5xl max-lg:leading-[50px] max-md:max-md:max-w-[100%] max-sm:text-3xl'>
-        <h1>Année 2024</h1>
+        <h1>2024/2025</h1>
       </div>
 
-      <div className=' grid grid-cols-6 max-w-[1130px] m-auto gap-2 max-lg:grid-cols-4 max-sm:grid-cols-2'>
-        <button onClick={()=>setActive("1")} className={`${active === "1" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Janvier</button>
-        <button onClick={()=>setActive("2")} className={`${active === "2" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Février</button>
-        <button onClick={()=>setActive("3")} className={`${active === "3" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Mars</button>
-        <button onClick={()=>setActive("4")} className={`${active === "4" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Avril</button>
-        <button onClick={()=>setActive("5")} className={`${active === "5" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Mai</button>
-        <button onClick={()=>setActive("6")} className={`${active === "6" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Juin</button>
-        <button onClick={()=>setActive("7")} className={`${active === "7" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Juillet</button>
-        <button onClick={()=>setActive("8")} className={`${active === "8" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Août</button>
-        <button onClick={()=>setActive("9")} className={`${active === "9" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Septembre</button>
-        <button onClick={()=>setActive("10")} className={`${active === "10" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Octobre</button>
-        <button onClick={()=>setActive("11")} className={`${active === "11" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Novembre</button>
-        <button onClick={()=>setActive("12")} className={`${active === "12" ? "bg-[#f03821] text-white" : undefined} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Décembre</button>
+      <div className=' grid grid-cols-5 max-w-[1130px] m-auto gap-2 max-lg:grid-cols-4 max-sm:grid-cols-2'>
+          <button onClick={()=>setActive("9")} className={`${active === "9" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Septembre</button>
+          <button onClick={()=>setActive("10")} className={`${active === "10" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Octobre</button>
+          <button onClick={()=>setActive("11")} className={`${active === "11" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Novembre</button>
+          <button onClick={()=>setActive("12")} className={`${active === "12" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Décembre</button>
+          <button onClick={()=>setActive("1")} className={`${active === "1" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Janvier</button>
+          <button onClick={()=>setActive("2")} className={`${active === "2" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Février</button>
+          <button onClick={()=>setActive("3")} className={`${active === "3" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Mars</button>
+          <button onClick={()=>setActive("4")} className={`${active === "4" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Avril</button>
+          <button onClick={()=>setActive("5")} className={`${active === "5" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Mai</button>
+          <button onClick={()=>setActive("6")} className={`${active === "6" ? "bg-[#f03821] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Juin</button>
       </div>
 
       <div className=' grid grid-cols-5 gap-4 w-[80%] mt-10 max-xl:w-[100%] max-lg:grid-cols-2 max-sm:grid-cols-1 m-auto duration-300'>

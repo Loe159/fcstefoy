@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../assets/logo.png"
+import logo1 from "../assets/logo1.png"
 import { navLinks } from '../Data/Data'
 import {FiMenu} from "react-icons/fi"
 import {IoClose} from "react-icons/io5"
@@ -13,6 +14,7 @@ const Nav = ({nav}) => {
     <header className={`w-full ${nav ? "fixed bg-black duration-300 top-0 left-0 z-30" : "absolute"}`}>
       <nav className='max-w-[1540px] m-auto py-6 px-6 max-lg:px-12 flex justify-between items-center gap-14 max-xl:gap-5 max-sm:py-4 max-sm:px-6'>
         <Link to="/" className=' font-semibold text-5xl flex justify-center items-center text-white gap-1'>
+          <img src={logo1} alt="logo" width={80}/>
           <img src={logo} alt="logo" width={160}/>
         </Link>
 
