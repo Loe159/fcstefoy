@@ -10,7 +10,7 @@ const Services = () => {
           <div>
             <p className=' text-white relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>NOS VALEURS</p>
             <div className=' text-6xl text-white mt-8 leading-[60px] font-semibold max-xl:text-4xl max-lg:text-5xl max-lg:leading-[60px] max-lg:max-w-[100%] max-sm:text-3xl'>
-              <h1>Une boussole pour chaque décision</h1>
+              <h1>UNIS PAR LA PASSION</h1>
             </div>
           </div>
         </div>
