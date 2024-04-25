@@ -19,7 +19,11 @@ const About = () => {
           </div>
 
           <p className='font text-lg text-slate-800 text-justify'>
-            Avec détermination et engagement, nous poursuivons notre chemin vers l'excellence, portés par l'esprit d'unité et la volonté constante de grandir. Merci de votre soutien indéfectible et de votre attachement à nos valeurs. Allez le FC Sainte Foy Lès Lyon !
+            Guidés par une détermination inflexible et un engagement inébranlable, nous traçons notre chemin vers l'excellence avec une foi inégalée. Portés par l'esprit d'unité qui nous anime et la volonté constante de nous surpasser, chaque pas que nous faisons est un pas en avant vers la réalisation de nos ambitions les plus élevées. Nous exprimons notre sincère gratitude pour votre soutien indéfectible et votre engagement inconditionnel envers nos valeurs. C'est grâce à cette formidable solidarité que nous sommes en mesure d'accomplir de grandes choses ensemble.
+          </p>
+          <br/>
+          <p className='font text-lg text-slate-800 text-justify'>
+            Allez le FC Sainte Foy Lès Lyon ! Votre passion et votre dévouement sont le moteur qui propulse notre équipe vers de nouveaux sommets. Que notre chemin vers la victoire soit marqué par la persévérance, la camaraderie et l'esprit d'équipe qui caractérisent notre club. Ensemble, nous formons une force invincible. Ensemble, nous sommes prêts à relever tous les défis qui se dressent sur notre route, avec fierté et détermination. Merci de faire partie de cette extraordinaire aventure.
           </p>
 
         </div>
