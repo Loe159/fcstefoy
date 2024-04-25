@@ -284,11 +284,11 @@ export const footer = [
         ]
     },
     {
-        title:"RESSOURCES",
+        title:"SPONSORS",
         footerLinks:[
-            {link:"Gallerie photo"},
-            {link:"Actualité"},
-            {link:"Vie du club"},
+            {link:"azertyuiop"},
+            {link:"azertyuiop"},
+            {link:"azertyuiop"},
         ]
     }
 ]
