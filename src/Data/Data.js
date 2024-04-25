@@ -21,6 +21,7 @@ import fernoux from "../assets/lucas-fernoux.jpg"
 export const navLinks = [
     {label:"Accueil",href:"/"},
     {label:"Boutique",href:"#about"},
+    {label:"Partenaires",href:"/"},
     {label:"Nous contacter",href:"/contact"},
 ]
 
