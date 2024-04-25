@@ -5,9 +5,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import {BsInstagram, BsTwitter} from "react-icons/bs";
-import {FaGlobe} from "react-icons/fa6";
-import {BiLogoFacebook} from "react-icons/bi";
 import {teamMembers} from "../Data/Data";
 import {Autoplay, Navigation} from "swiper/modules";
 
@@ -24,7 +21,7 @@ const TeamMembers = () => {
                     <p className=' relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>NOTRE
                         ÉQUIPE</p>
                     <div className=' text-6xl text-black mt-8 leading-[60px] font-semibold max-sm:text-3xl'>
-                        <h1>LE BUREAU DE L'ASSOCIATION</h1>
+                        <h1>BUREAU DE L'ASSOCIATION</h1>
                     </div>
                 </div>
             </div>
@@ -34,8 +31,7 @@ const TeamMembers = () => {
                     loop={true}
                     autoplay= {true}
                     ref={sliderRef}
-                    navigation={true}
-                    modules={[Navigation, Autoplay]}
+                    modules={[Autoplay]}
                     breakpoints={{
                         500: {
                             slidesPerView: 2,
@@ -55,13 +51,6 @@ const TeamMembers = () => {
                                     className='absolute bottom-[-50px] duration-[.4s] group-hover:bottom-0 left-0 w-full group-hover:bg-[#f03821] p-7 pb-8'>
                                     <p className=' font mb-2 text-gray-300 relative before:absolute before:w-10 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-14 text-lg before:translate-y-[-50%] group-hover:text-white group-hover:before:bg-white'>{val.role}</p>
                                     <h1 className='font text-xl font-semibold text-white'>{val.name}</h1>
-
-                                    <div className=' flex items-center gap-6 text-lg mt-[27px] text-white'>
-                                        <BiLogoFacebook/>
-                                        <BsTwitter/>
-                                        <FaGlobe/>
-                                        <BsInstagram/>
-                                    </div>
                                 </div>
                             </div>
                         </SwiperSlide>

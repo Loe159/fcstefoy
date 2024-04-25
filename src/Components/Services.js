@@ -15,7 +15,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className=' grid grid-cols-4 cursor-pointer gap-10 place-items-center overflow-hidden max-xl:grid-cols-2 max-sm:grid-cols-1'>
+        <div className=' grid grid-cols-4 gap-10 place-items-center overflow-hidden max-xl:grid-cols-2 max-sm:grid-cols-1'>
           {services.map((val)=>(
             <div key={val.label} className=' relative group min-h-[350px] pt-20 pb-9 w-full text-center flex flex-col items-center justify-center max-xl:pt-16 text-white'>
               <div>

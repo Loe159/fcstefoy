@@ -20,7 +20,7 @@ const HeroSection = () => {
 
         <button className=' py-4 px-7 text-xl group relative text-white bg-[#f03821] rounded-sm'>
           <div className=' buttonDiv'></div>
-          <span className='buttonSpan'>S'INSCRIRE</span>
+          <span className='buttonSpan'>DEVENIR LICENCIÉ</span>
         </button>
       </motion.div>
     </section>

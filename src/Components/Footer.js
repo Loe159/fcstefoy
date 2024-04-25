@@ -43,7 +43,7 @@ const Footer = ({nav}) => {
       </div>
 
       <div className=' border-t border-[#3e3e3e] max-container pt-10 pb-16 text-[#c4c4c4] text-center px-4'>
-        <p className=' font'>Copyright &copy;{date} Tous droits réservés | Football Club Sainte-Foy Lès Lyon</p>
+        <p className=' font'>Copyright &copy;{date}</p>
       </div>
     </section>
   )

@@ -285,11 +285,11 @@ export const footer = [
         ]
     },
     {
-        title:"SPONSORS",
+        title:"Partenaires",
         footerLinks:[
-            {link:"azertyuiop"},
-            {link:"azertyuiop"},
-            {link:"azertyuiop"},
+            {link:"OL"},
+            {link:"Crédit Mutuel"},
+            {link:"Région Auvergne Rhône Alpes"},
         ]
     }
 ]
