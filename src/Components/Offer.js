@@ -8,7 +8,7 @@ const Offer = () => {
           <h1>Pour un style incomparable 👌</h1>
         </div>
 
-          <button className=' py-4 px-9 text-xl group relative text-white bg-[#f03821] rounded-sm font-semibold'>
+          <button className=' py-4 px-9 text-xl group relative text-white bg-[#d73523] rounded-sm font-semibold'>
             <div className=' buttonDiv'></div>
             <span className='buttonSpan'>Explorez notre boutique</span>
           </button>

@@ -28,7 +28,7 @@ html{
     border-radius: 2px;
 }
 .background{
-    background-color: #f03821;
+    background-color: #d73523;
     color: white;
 }
 
@@ -60,5 +60,5 @@ html{
 }
 .swiper-button-next,
 .swiper-button-prev {
-    color: #f03821!important; /* Change this to your desired arrow color */
+    color: #d73523!important; /* Change this to your desired arrow color */
 }

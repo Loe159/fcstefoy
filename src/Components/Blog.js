@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <section id='blog' className=' w-full'>
       <div className=' max-container padding-hero-y padding-x'>
-        <p className=' relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>#FCSF</p>
+        <p className=' relative before:absolute before:w-20 before:h-1 before:bg-[#d73523] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>#FCSF</p>
 
         <div className='text-6xl font-semibold leading-[70px] mt-5 mb-20 text-center max-lg:text-5xl max-lg:leading-[50px] max-sm:text-3xl'>
           <h1>MOMENTS & TEMPS FORTS</h1>
@@ -17,13 +17,13 @@ const Blog = () => {
               <a href={val.link} target={"_blank"} rel={"noreferrer"}>
                 <div className=' flex justify-center items-center relative overflow-hidden '>
                    <img src={val.img} alt="blogImg" className=' duration-500 group-hover:scale-105 w-full object-cover h-96'/>
-                   <p className='absolute bottom-0 left-0 text-2xl bg-[#f03821] text-white p-6 max-lg:p-4'>{val.date}</p>
+                   <p className='absolute bottom-0 left-0 text-2xl bg-[#d73523] text-white p-6 max-lg:p-4'>{val.date}</p>
                 </div>
               </a>
     
               <div className=' p-8 max-lg:p-5'>
                 <p className=' text-slate-500 mb-4 relative before:absolute before:w-14 before:h-[2px] font before:bg-slate-600 before:top-[50%] before:left-0 pl-20 before:translate-y-[-50%] text-center w-fit'>{val.role}</p>
-                <p className=' cursor-pointer hover:text-[#f03821] font text-2xl font-bold w-full max-lg:text-lg overflow-ellipsis whitespace-nowrap overflow-hidden'>
+                <p className=' cursor-pointer hover:text-[#d73523] font text-2xl font-bold w-full max-lg:text-lg overflow-ellipsis whitespace-nowrap overflow-hidden'>
                   <a href={val.link} target={"_blank"} rel={"noreferrer"}>{val.desc}</a>
                 </p>
               </div>
