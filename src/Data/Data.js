@@ -9,9 +9,6 @@ import img6 from "../assets/img-6.jpg"
 import img7 from "../assets/img-7.jpg"
 import img8 from "../assets/img-8.jpg"
 
-import img9 from "../assets/img-20.jpg"
-import img10 from "../assets/img-21.jpg"
-
 import mezard from "../assets/fabien-mezard2.jpg"
 import sassi from "../assets/hosni-sassi.jpg"
 import vindry from "../assets/dominique-vindry.jpg"
@@ -261,16 +258,18 @@ export const events =[
 ]
 
 export const blog = [
-    {   img:img9,
-        date:"21 Juin 2022",
-        role:"Compétition",
-        desc:"FINALE COUPE DU RHÔNE U17"
+    {   img:"https://img.youtube.com/vi/ymuFO-myE_Q/maxresdefault.jpg",
+        date:"23 Avril 2024",
+        role:"Pieds Carrés",
+        desc:"E1 : Retour à Ste FOY pour une opération maintien IMPOSSIBLE (l'équipe est dernière de D1)",
+        link:"https://www.youtube.com/watch?v=ymuFO-myE_Q"
     },
     {
-        img:img10,
-        date:"27",
-        role:"Réseaux-sociaux",
-        desc:"UN WEEK-END RECORD"
+        img:"https://img.youtube.com/vi/aZtN8SrO4gY/maxresdefault.jpg",
+        date:"20 Mai 2023",
+        role:"Pieds Carrés",
+        desc:"E28 : Mon DERNIER match à St Foy. Bagarre, record, cartons, il ne faut PAS gâcher la fête",
+        link:"https://www.youtube.com/watch?v=aZtN8SrO4gY"
     }
 ]
 
