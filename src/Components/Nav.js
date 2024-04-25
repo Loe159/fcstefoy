@@ -23,7 +23,7 @@ const Nav = ({nav}) => {
             <li key={val.label} className={`text-white font-medium hover:text-red-500 text-xl max-lg:text-lg ${openNav ? "max-lg:block" : "max-lg:hidden"}`}><Link to={val.href}>{val.label}</Link></li>
           ))}
 
-        <div className={`absolute right-[20px] translate-y-[-50%] text-2xl cursor-pointer ${openNav ? 'top-[25px] right-[20px] translate-y-[-50%]' : 'top-[25px]'}`} onClick={()=>setOpenNav(!openNav)}>
+        <div className={`lg:hidden absolute right-[20px] translate-y-[-50%] text-2xl cursor-pointer ${openNav ? 'top-[25px] right-[20px] translate-y-[-50%]' : 'top-[25px]'}`} onClick={()=>setOpenNav(!openNav)}>
           {openNav ? <IoClose /> :  <FiMenu />}
         </div>
         </ul>
