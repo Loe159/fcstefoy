@@ -37,7 +37,7 @@ const Client = () => {
         </div>
 
         <div className=' flex-1'>
-          <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>LEUR TÉMOIGNAGE</p>
+          <p className=' relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>LEURS TÉMOIGNAGES</p>
           <div className=' my-7 text-5xl leading-[60px] font-semibold text-black max-sm:text-3xl'>
             <h1>CE QU'ILS PENSENT DU CLUB</h1>
           </div>
