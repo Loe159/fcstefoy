@@ -50,7 +50,7 @@ export const client = [
         id:1,
         desc:'"Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se."',
         img:img1,
-        clientName:"Butler"
+        clientName:"Farès"
     },
     {
         id:2,

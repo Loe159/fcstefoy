@@ -15,7 +15,7 @@ const Footer = ({nav}) => {
 
   return (
     <section className=' text-white min-h-[65vh] w-full bg-footer-pattern bg-center bg-cover bg-no-repeat'>
-        {nav ? <a href="#root"><div className='bg-[#f03821] w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer hover:bg-black hover:border-2 hover:border-[#f03821]'><TbArrowBigUpFilled /></div></a>  : ""}
+        {nav ? <a href="#root"><div className=' bg-black w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer hover:bg-[#f03821] '><TbArrowBigUpFilled /></div></a>  : ""}
       <div className='max-container grid grid-cols-3 gap-10 padding-hero-y px-20 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:px-10 max-sm:grid-cols-1'>
         {footer.map((val)=>(
           <div key={val.title}>  
