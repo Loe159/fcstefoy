@@ -9,7 +9,7 @@ import {BsInstagram, BsTwitter} from "react-icons/bs";
 import {FaGlobe} from "react-icons/fa6";
 import {BiLogoFacebook} from "react-icons/bi";
 import {teamMembers} from "../Data/Data";
-import {Navigation} from "swiper/modules";
+import {Autoplay, Navigation} from "swiper/modules";
 
 
 const TeamMembers = () => {
@@ -32,9 +32,10 @@ const TeamMembers = () => {
                     slidesPerView={1}
                     spaceBetween={30}
                     loop={true}
+                    autoplay= {true}
                     ref={sliderRef}
                     navigation={true}
-                    modules={[Navigation]}
+                    modules={[Navigation, Autoplay]}
                     breakpoints={{
                         500: {
                             slidesPerView: 2,
