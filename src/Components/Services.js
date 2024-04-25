@@ -17,10 +17,10 @@ const Services = () => {
 
         <div className=' grid grid-cols-4 cursor-pointer gap-10 place-items-center overflow-hidden max-xl:grid-cols-2 max-sm:grid-cols-1'>
           {services.map((val)=>(
-            <div key={val.label} className=' relative group bg-white min-h-[350px] pt-20 pb-9 w-full text-center flex flex-col items-center justify-center max-xl:pt-16'>
+            <div key={val.label} className=' relative group min-h-[350px] pt-20 pb-9 w-full text-center flex flex-col items-center justify-center max-xl:pt-16 text-white'>
               <div>
-                <p className=' group-hover:text-[#f04e3c] flex justify-center mb-10 text-5xl'>{val.icon}</p>
-                <p className=' text-2xl mb-5'>{val.label}</p>
+                <p className=' flex justify-center mb-10 text-5xl'>{val.icon}</p>
+                <p className=' text-4xl mb-5'>{val.label}</p>
               </div>
             </div>
           ))}
