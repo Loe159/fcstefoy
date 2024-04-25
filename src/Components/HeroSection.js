@@ -11,8 +11,6 @@ const HeroSection = () => {
       animate={{x:0,opacity:1}}
       transition={{
         duration:1,
-        repeatDelay:10,
-        repeat:Infinity
       }}
       className=' min-h-screen max-container font-semibold flex justify-center items-start flex-col padding-x overflow-x-hidden'>
         <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] max-sm:text-xl max-sm:before:w-14 max-sm:pl-20'>DEPUIS 1997</p>
