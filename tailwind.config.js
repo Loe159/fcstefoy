@@ -13,7 +13,7 @@ module.exports = {
         'service-pattern':
         "linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(31, 102, 181, 0.8)), url('assets/img-5.jpg')",
 
-        'gallery-pattern1':"url('assets/img-12.jpg')",
+        'gallery-pattern1':"url('assets/img-10.jpg')",
 
         'gallery-pattern2':"url('assets/img-14.jpg')",
 

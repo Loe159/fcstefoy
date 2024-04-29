@@ -12,18 +12,24 @@ const About = () => {
         </div>
 
         <div className=' flex-1'>
-          <p className=' relative before:absolute before:w-20 before:h-1 before:bg-[#d73523] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>MOT DU PRÉSIDENT</p>
-        
-          <div className=' my-7 text-5xl leading-[60px] font-semibold text-black max-xl:text-4xl max-xl:my-4 max-lg:my-7 max-lg:text-5xl max-lg:leading-[60px] max-sm:text-3xl'>
+          <p className=' relative before:absolute before:w-20 before:h-1 before:bg-[#d73523] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>MOT
+            DU PRÉSIDENT</p>
+
+          <div
+              className=' my-7 text-5xl leading-[60px] font-semibold text-black max-xl:text-4xl max-xl:my-4 max-lg:my-7 max-lg:text-5xl max-lg:leading-[60px] max-sm:text-3xl'>
             <h1>FABIEN MEZARD</h1>
           </div>
 
           <p className='font text-lg text-slate-800 text-justify'>
-            Guidés par une détermination inflexible et un engagement inébranlable, nous traçons notre chemin vers l'excellence avec une foi inégalée. Portés par l'esprit d'unité qui nous anime et la volonté constante de nous surpasser, chaque pas que nous faisons est un pas en avant vers la réalisation de nos ambitions les plus élevées. Nous exprimons notre sincère gratitude pour votre soutien indéfectible et votre engagement inconditionnel envers nos valeurs. C'est grâce à cette formidable solidarité que nous sommes en mesure d'accomplir de grandes choses ensemble.
+            "En ma qualité de président, c'est avec une immense fierté et un profond sentiment d'honneur que je prends la parole pour vous adresser mes mots les plus sincères. Notre club représente bien plus qu'une simple équipe de football ; il incarne un héritage, une passion partagée et une communauté unie par un même objectif : l'excellence. Guidés par une détermination inflexible et un engagement inébranlable, nous nous efforçons chaque jour de porter haut les couleurs de notre club, sur le terrain comme en dehors.
           </p>
           <br/>
           <p className='font text-lg text-slate-800 text-justify'>
-            Allez le FC Sainte Foy Lès Lyon ! Votre passion et votre dévouement sont le moteur qui propulse notre équipe vers de nouveaux sommets. Que notre chemin vers la victoire soit marqué par la persévérance, la camaraderie et l'esprit d'équipe qui caractérisent notre club. Ensemble, nous formons une force invincible. Ensemble, nous sommes prêts à relever tous les défis qui se dressent sur notre route, avec fierté et détermination. Merci de faire partie de cette extraordinaire aventure.
+            Que ce soit dans la victoire ou dans l'adversité, nous sommes solidaires, unis par notre amour pour le jeu et notre désir constant de nous améliorer. Je souhaite exprimer ma profonde gratitude à chacun d'entre vous pour votre soutien indéfectible et votre engagement inconditionnel envers nos valeurs. C'est grâce à cette formidable solidarité que nous sommes en mesure de réaliser de grandes choses ensemble, et je suis honoré de faire partie de cette extraordinaire aventure avec vous.
+          </p>
+          <br/>
+          <p className='font text-lg text-slate-800 text-justify'>
+            Allez le FC Sainte Foy Les Lyon !"
           </p>
 
         </div>

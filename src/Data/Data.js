@@ -2,7 +2,7 @@ import {LiaHandshakeSolid} from "react-icons/lia";
 import {PiGraphLight} from "react-icons/pi";
 import {BsGraphUp, BsHeartPulse} from "react-icons/bs"
 
-import img1 from "../assets/img-8.jpg"
+import img1 from "../assets/img-9.jpg"
 import img5 from "../assets/img-12.jpg"
 
 import img6 from "../assets/img-6.jpg"
@@ -21,7 +21,7 @@ import fernoux from "../assets/lucas-fernoux.jpg"
 export const navLinks = [
     {label:"Accueil",href:"/"},
     {label:"Boutique",href:"#about"},
-    {label:"Gallerie Photo",href:"/"},
+    {label:"Galerie Photo",href:"/"},
     {label:"Sponsoring",href:"/"},
     {label:"Nous contacter",href:"/contact"},
 ]
@@ -49,34 +49,39 @@ export const services = [
 export const client = [
     {
         id:1,
-        desc:'"Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se."',
-        img:img1,
-        clientName:"Farès"
+        desc:'"Pour moi, le FC Sainte-Foy-lès-Lyon représente bien plus qu\'un simple club de football. En tant que fervente supportrice, je suis émue par l\'esprit d\'équipe et la passion qui animent nos équipes. Voir nos joueurs se battre sur le terrain avec autant de détermination est un véritable spectacle, et cela renforce notre lien avec le club et ses valeurs."',
+        img:img5,
+        clientName:"Manon",
+        role: "Supportrice"
     },
     {
         id:2,
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur, magnam eos optio laboriosam quaerat voluptates! Inventore molestiae voluptatibus repudiandae quos blanditiis, soluta ratione? Totam quos voluptas a laborum exercitationem",
+        desc:'"La détermination de nos athlètes à se dépasser est véritablement remarquable. En tant que coordinateur sportif du FC Sainte-Foy-lès-Lyon, je suis impressionné par leur engagement sans faille lors des entraînements et des matchs. C\'est un plaisir de les soutenir dans leur progression et de les voir s\'épanouir en tant que joueurs et individus."',
         img:img6,
-        clientName:"Chiris Harris"
+        clientName:"Guillaume",
+        role: "Coordinateur"
     },
     {
         id:3,
-        desc:'"Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se."',
+        desc:'"De la passion pour le football est née une véritable fierté pour notre communauté. En tant que fondateur du FC Sainte-Foy-lès-Lyon, je suis comblé de voir comment notre club est devenu un symbole d\'unité et de dynamisme pour toute la ville. Voir nos joueurs incarner nos valeurs sur et en dehors du terrain est une source de satisfaction sans pareille."',
         img:img7,
-        clientName:"Martin"
+        clientName:"Robert",
+        role: "Fondateur"
     },
     {
         id:4,
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur, magnam eos optio laboriosam quaerat voluptates! Inventore molestiae voluptatibus repudiandae quos blanditiis, soluta ratione? Totam quos voluptas a laborum exercitationem",
-        img:img8,
-        clientName:"Thomos"
+        desc:'"Chaque match est une nouvelle occasion de voir nos joueurs évoluer avec passion et détermination sur le terrain. En tant qu\'entraîneur du FC Sainte-Foy-lès-Lyon, je suis constamment inspiré par leur engagement envers le jeu et leur esprit d\'équipe. C\'est un honneur de faire partie de cette équipe dynamique et de contribuer à son succès."',
+        img:img1,
+        clientName:"Farès",
+        role: "Entraineur"
     },
     {
         id:5,
-        desc:'"Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se."',
-        img:img5,
-        clientName:"Dravid"
-    }
+        desc:'"Notre engagement collectif nous a permis de réaliser des progrès significatifs. En tant que membre du comité directeur du FC Sainte-Foy-lès-Lyon, je suis impressionné par la détermination et l\'implication de notre équipe dirigeante. C\'est un privilège de contribuer à l\'évolution de notre club et de voir nos efforts porter leurs fruits."',
+        img:img8,
+        clientName:"Sébastien",
+        role: "Bénévole"
+    },
 ]
 
 export const teamMembers =[
@@ -114,148 +119,34 @@ export const teamMembers =[
 
 export const events =[
     {
-        month:"1",
-        date:"13/01/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"1",
-        date:"15/01/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"1",
-        date:"13/01/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"2",
-        date:"15/02/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"3",
-        date:"13/03/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"3",
-        date:"15/03/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"3",
-        date:"13/03/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"4",
-        date:"15/04/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"4",
-        date:"13/04/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"4",
-        date:"15/04/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
+        month:"5",
+        date:"15/05/2025",
+        titre:"Tournoi U11",
+        time:"9h-16h"
     },
     {
         month:"5",
-        date:"13/05/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
+        date:"18/05/2025",
+        titre:"Tournoi U7",
+        time:"9h-16h"
     },
     {
         month:"5",
-        date:"15/05/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
+        date:"19/05/2025",
+        titre:"Tournoi U9",
+        time:"9h-16h"
     },
     {
         month:"6",
-        date:"13/06/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
+        date:"02/06/2025",
+        titre:"Tournoi U13",
+        time:"9h-16h"
     },
     {
-        month:"7",
-        date:"15/07/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"8",
-        date:"13/08/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"8",
-        date:"15/08/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"9",
-        date:"13/09/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"9",
-        date:"15/09/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"9",
-        date:"13/09/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"10",
-        date:"15/10/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"10",
-        date:"13/10/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"11",
-        date:"15/11/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"11",
-        date:"13/11/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
-    },
-    {
-        month:"12",
-        date:"15/12/2024",
-        titre:"Lorem ipsum",
-        time:"13h-15h"
+        month:"6",
+        date:"16/06/2025",
+        titre:"Tournoi Féminine",
+        time:"9h-16h"
     },
 ]
 

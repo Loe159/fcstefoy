@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Nav from './Components/Nav'
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";

@@ -48,7 +48,7 @@ const Client = () => {
           </p>
         </div>
 
-          <h1 className=' text-xl font-semibold flex gap-4 items-center'>{client[currSlide].clientName}<span className=' text-slate-500 text-base'>Entraineur</span></h1>
+          <h1 className=' text-xl font-semibold flex gap-4 items-center'>{client[currSlide].clientName}<span className=' text-slate-500 text-base'>{client[currSlide].role}</span></h1>
         
           <div className=' flex text-4xl mt-20 justify-start max-lg:mt-5'>
             {client.map((val,index)=>(

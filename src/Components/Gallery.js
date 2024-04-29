@@ -23,7 +23,7 @@ const Gallery = () => {
             <AiOutlineArrowRight />
           </div>
           <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
-          <p className=' font text-xl text-slate-200 '>Équipe U17</p>
+          <p className=' font text-xl text-slate-200 '>Stage de Pâques - Piscine</p>
         </div>
       </div>
 
@@ -34,7 +34,7 @@ const Gallery = () => {
             <AiOutlineArrowRight />
           </div>
           <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
-          <p className=' font text-xl text-slate-200 '>Équipe Sénior 2</p>
+          <p className=' font text-xl text-slate-200 '>Stage de Pâques - Accrobranche</p>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ const Gallery = () => {
             <AiOutlineArrowRight />
           </div>
           <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
-          <p className=' font text-xl text-slate-200 '>Équipe U20</p>
+          <p className=' font text-xl text-slate-200 '>Stage de Pâques - Futsal</p>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ const Gallery = () => {
             <AiOutlineArrowRight />
           </div>
           <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
-          <p className=' font text-xl text-slate-200 '>Équipe U18</p>
+          <p className=' font text-xl text-slate-200 '>Stage de Pâques - Remise trophée</p>
         </div>
       </div>
     </section>

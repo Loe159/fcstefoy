@@ -1,12 +1,25 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import {MdKeyboardArrowDown} from "react-icons/md";
 
 
 const HeroSection = () => {
+
+  const scroll = () => {
+    const section = document.querySelector( '#about' );
+    section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+  };
+
+  const bounceTransition = {
+    y: {
+      duration: 1,
+      yoyo: Infinity,
+      ease: "easeOut",
+    },}
   
   return (
     <section id='home' className=' w-screen min-h-screen bg-hero-pattern bg-cover bg-fixed bg-left max-sm:bg-center max-lg:bg-center'>
-      <motion.div 
+      <motion.div
       initial={{x:-500, opacity:0}}
       animate={{x:0,opacity:1}}
       transition={{
@@ -21,6 +34,20 @@ const HeroSection = () => {
         <button className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
           <div className=' buttonDiv'></div>
           <span className='buttonSpan'>DEVENIR LICENCIÉ</span>
+        </button>
+      </motion.div>
+      <motion.div
+          initial={{y:0}}
+          transition={bounceTransition}
+          animate={{
+            y: ["100%", "-100%"],
+          }}
+
+          className={"flex justify-center -mt-20"}>
+        <button onClick={scroll}>
+          <div className=' bg-black w-14 h-14 text-2xl flex justify-center items-center rounded-full cursor-pointer text-white'>
+            <MdKeyboardArrowDown />
+          </div>
         </button>
       </motion.div>
     </section>

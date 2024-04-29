@@ -15,8 +15,8 @@ const Footer = ({nav}) => {
 
   return (
     <section className=' text-white min-h-[65vh] w-full bg-footer-pattern bg-center bg-cover bg-no-repeat'>
-        {nav ? <a href="#root"><div className=' bg-black w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer hover:bg-[#d73523] '><TbArrowBigUpFilled /></div></a>  : ""}
-      <div className='max-container grid grid-cols-3 gap-10 padding-hero-y px-20 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:px-10 max-sm:grid-cols-1'>
+        {nav ? <a href="#"><div className=' bg-black w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer '><TbArrowBigUpFilled /></div></a>  : ""}
+      <div className='max-container flex justify-around padding-hero-y px-20max-sm:px-10 flex-wrap gap-10'>
         {footer.map((val)=>(
           <div key={val.title}>  
             <h1 className=' text-2xl font-medium mb-8'>{val.title}</h1>

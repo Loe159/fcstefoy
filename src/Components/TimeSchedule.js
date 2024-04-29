@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {events} from "../Data/Data";
 const TimeSchedule = () => {
 
-  const [active,setActive] = useState("9")
+  const [active,setActive] = useState("5")
 
   return (
     <section id='schedule' className=' w-full'>
