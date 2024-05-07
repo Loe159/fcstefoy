@@ -78,7 +78,7 @@ export const teamMembers =[
     },
     {
         img:sassi,
-        role:"Président Délégué",
+        role:"Vice-Président",
         name:"Hosni SASSI"
     },
     {
@@ -98,7 +98,7 @@ export const teamMembers =[
     },
     {
         img:fernoux,
-        role:"Vice-Secrétaire Général",
+        role:"Président Délégué",
         name:"Lucas FERNOUX"
     },
 ]
