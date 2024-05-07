@@ -21,17 +21,24 @@ const About = () => {
           </div>
 
           <p className='font text-lg text-slate-800 text-justify'>
-            "En ma qualité de président, c'est avec une immense fierté et un profond sentiment d'honneur que je prends la parole pour vous adresser mes mots les plus sincères. Notre club représente bien plus qu'une simple équipe de football ; il incarne un héritage, une passion partagée et une communauté unie par un même objectif : l'excellence. Guidés par une détermination inflexible et un engagement inébranlable, nous nous efforçons chaque jour de porter haut les couleurs de notre club, sur le terrain comme en dehors.
+            En ma qualité de président, c'est avec fierté  que je prends la parole pour vous adresser ces quelques mots. Notre club représente bien plus que de simples équipes de football; il incarne un héritage, une passion partagée et une communauté unie par un même objectif : Progresser
           </p>
           <br/>
           <p className='font text-lg text-slate-800 text-justify'>
-            Que ce soit dans la victoire ou dans l'adversité, nous sommes solidaires, unis par notre amour pour le jeu et notre désir constant de nous améliorer. Je souhaite exprimer ma profonde gratitude à chacun d'entre vous pour votre soutien indéfectible et votre engagement inconditionnel envers nos valeurs. C'est grâce à cette formidable solidarité que nous sommes en mesure de réaliser de grandes choses ensemble, et je suis honoré de faire partie de cette extraordinaire aventure avec vous.
+            Avec détermination, porté par  les valeurs de respect, de plaisir, de partage et de progrès moteur de notre engagement, nous nous efforçons chaque jour de porter haut les couleurs de notre club, sur le terrain comme en dehors.
           </p>
           <br/>
           <p className='font text-lg text-slate-800 text-justify'>
-            Allez le FC Sainte Foy Les Lyon !"
+            Que ce soit dans la victoire ou dans l'adversité, nous sommes solidaires, unis par notre amour pour le jeu, notre désir constant de nous améliorer et notre volonté d'offrir à chacun la possibilité de pratiquer un football de qualité quel que soit son âge, son genre, ses origines ou ses capacités.
           </p>
-
+          <br/>
+          <p className='font text-lg text-slate-800 text-justify'>
+            Une association, un club  n'est rien sans solidarité et l'engagement  de chacun de ses acteurs. Je suis honoré de contribuer avec vous à cette dynamique collective qui nous permettra  de réaliser de grandes choses tous ensemble.
+          </p>
+          <br/>
+          <p className='font text-lg text-slate-800 text-justify'>
+            Allez  Sainte Foy !
+          </p>
         </div>
       </div>
     </section>
