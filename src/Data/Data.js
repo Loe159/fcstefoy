@@ -3,18 +3,18 @@ import {PiGraphLight} from "react-icons/pi";
 import {BsGraphUp, BsHeartPulse} from "react-icons/bs"
 
 import img1 from "../assets/img-9.jpg"
-import img5 from "../assets/img-12.jpg"
+import img5 from "../assets/yanis.webp"
 
-import img6 from "../assets/img-6.jpg"
-import img7 from "../assets/img-7.jpg"
-import img8 from "../assets/img-8.jpg"
+import img6 from "../assets/noemie-lise.webp"
+import img7 from "../assets/ludovic.webp"
+import img8 from "../assets/sebastien.webp"
 
-import mezard from "../assets/fabien-mezard2.jpg"
-import sassi from "../assets/hosni-sassi.jpg"
-import vindry from "../assets/dominique-vindry.jpg"
-import hendrickx from "../assets/fabienne-hendrickx.jpg"
-import pichard from "../assets/elisabeth-pichard.jpg"
-import fernoux from "../assets/lucas-fernoux.jpg"
+import mezard from "../assets/fabien-mezard.webp"
+import sassi from "../assets/hosni-sassi.png"
+import vindry from "../assets/dominique-vindry.webp"
+import hendrickx from "../assets/fabienne-hendrickx.webp"
+import pichard from "../assets/elisabeth-pichard.webp"
+import fernoux from "../assets/lucas-fernoux.webp"
 
 
 
@@ -49,37 +49,23 @@ export const services = [
 export const client = [
     {
         id:1,
-        desc:'"Pour moi, le FC Sainte-Foy-lès-Lyon représente bien plus qu\'un simple club de football. En tant que fervente supportrice, je suis émue par l\'esprit d\'équipe et la passion qui animent nos équipes. Voir nos joueurs se battre sur le terrain avec autant de détermination est un véritable spectacle, et cela renforce notre lien avec le club et ses valeurs."',
+        desc:'"Travailler avec les jeunes du FCSF est une expérience enrichissante au quotidien. Au-delà du terrain, nous construisons ensemble des valeurs de respect, de solidarité et de dépassement de soi. C\'est une fierté de voir ces jeunes évoluer et s\'épanouir dans un environnement aussi positif et bienveillant."',
         img:img5,
-        clientName:"Manon",
-        role: "Supportrice"
+        clientName:"Yanis",
+        role: "Éducateur"
     },
     {
         id:2,
-        desc:'"La détermination de nos athlètes à se dépasser est véritablement remarquable. En tant que coordinateur sportif du FC Sainte-Foy-lès-Lyon, je suis impressionné par leur engagement sans faille lors des entraînements et des matchs. C\'est un plaisir de les soutenir dans leur progression et de les voir s\'épanouir en tant que joueurs et individus."',
+        desc:'"Toujours impressionnée par l\'atmosphère chaleureuse et conviviale qui règne lors des matchs. C\'est un plaisir de partager ma passion pour le football avec d\'autres fans et de soutenir nos équipes avec enthousiasme."',
         img:img6,
-        clientName:"Guillaume",
-        role: "Coordinateur"
+        clientName:"Noémie Lise",
+        role: "Supportrice"
     },
     {
         id:3,
-        desc:'"De la passion pour le football est née une véritable fierté pour notre communauté. En tant que fondateur du FC Sainte-Foy-lès-Lyon, je suis comblé de voir comment notre club est devenu un symbole d\'unité et de dynamisme pour toute la ville. Voir nos joueurs incarner nos valeurs sur et en dehors du terrain est une source de satisfaction sans pareille."',
+        desc:'"Offrir à nos membres la meilleure expérience possible. Cela signifie travailler en équipe, écouter les besoins de chacun et prendre des décisions transparentes et équitables. C\'est un défi passionnant et gratifiant, que nous relevons avec engagement et enthousiasme chaque jour."',
         img:img7,
-        clientName:"Robert",
-        role: "Fondateur"
-    },
-    {
-        id:4,
-        desc:'"Chaque match est une nouvelle occasion de voir nos joueurs évoluer avec passion et détermination sur le terrain. En tant qu\'entraîneur du FC Sainte-Foy-lès-Lyon, je suis constamment inspiré par leur engagement envers le jeu et leur esprit d\'équipe. C\'est un honneur de faire partie de cette équipe dynamique et de contribuer à son succès."',
-        img:img1,
-        clientName:"Farès",
-        role: "Entraineur"
-    },
-    {
-        id:5,
-        desc:'"Notre engagement collectif nous a permis de réaliser des progrès significatifs. En tant que membre du comité directeur du FC Sainte-Foy-lès-Lyon, je suis impressionné par la détermination et l\'implication de notre équipe dirigeante. C\'est un privilège de contribuer à l\'évolution de notre club et de voir nos efforts porter leurs fruits."',
-        img:img8,
-        clientName:"Sébastien",
+        clientName:"Ludovic",
         role: "Bénévole"
     },
 ]

@@ -1,6 +1,5 @@
 import React from "react";
 import Accordion from "../Components/Accordion";
-import img from "../assets/fabien-mezard.jpg";
 
 
 const ContactUs = () => {

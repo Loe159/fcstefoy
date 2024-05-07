@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../assets/fabien-mezard.jpg"
+import img from "../assets/fabien-mezard2.webp"
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
           </div>
 
           <p className='font text-lg text-slate-800 text-justify'>
-            En ma qualité de président, c'est avec fierté  que je prends la parole pour vous adresser ces quelques mots. Notre club représente bien plus que de simples équipes de football; il incarne un héritage, une passion partagée et une communauté unie par un même objectif : Progresser
+            "En ma qualité de président, c'est avec fierté  que je prends la parole pour vous adresser ces quelques mots. Notre club représente bien plus que de simples équipes de football; il incarne un héritage, une passion partagée et une communauté unie par un même objectif : Progresser
           </p>
           <br/>
           <p className='font text-lg text-slate-800 text-justify'>
@@ -37,7 +37,7 @@ const About = () => {
           </p>
           <br/>
           <p className='font text-lg text-slate-800 text-justify'>
-            Allez  Sainte Foy !
+            Allez  Sainte Foy !"
           </p>
         </div>
       </div>
