@@ -168,15 +168,17 @@ export const blog = [
 
 export const footer = [
     {
-        title:"Liens",
+        title:"LIENS",
         footerLinks:[  
             {link:"Accueil"},
             {link:"Boutique"},
+            {link:"Galerie Photo"},
+            {link:"Sponsoring"},
             {link:"Nous contacter"},
         ]
     },
     {
-        title:"Partenaires",
+        title:"PARTENAIRES",
         footerLinks:[
             {link:"OL"},
             {link:"Crédit Mutuel"},
