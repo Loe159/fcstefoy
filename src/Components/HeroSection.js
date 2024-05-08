@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import {MdKeyboardArrowDown} from "react-icons/md";
+import {Link} from "react-router-dom";
 
 
 const HeroSection = () => {
@@ -31,10 +32,10 @@ const HeroSection = () => {
           <h1>BIENVENUE</h1>
         </div>
 
-        <button className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
+        <Link to={"/contact"} className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
           <div className=' buttonDiv'></div>
           <span className='buttonSpan'>DEVENIR LICENCIÉ</span>
-        </button>
+        </Link>
       </motion.div>
       <motion.div
           initial={{y:0}}

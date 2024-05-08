@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {AiOutlineArrowRight} from "react-icons/ai"
+import {Link} from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -9,7 +10,9 @@ const Gallery = () => {
       <div className=' group h-screen row-span-2 col-span-2 max-lg:row-span-2 max-lg:h-[49vh] relative bg-gallery-pattern1 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:w-full after:h-full after:bg-gradient-to-r from-black bg-cover bg-center max-sm:row-span-1 max-sm:col-span-1 '>
         <div className='w-full group-hover:left-[50%] duration-300 absolute top-[50%] left-[-50%] translate-x-[-50%] translate-y-[-50%] text-center z-10'>
           <div className=' bg-[#d73523] rounded-full p-4 max-lg:p-2 text-white text-2xl mb-7 max-lg:mb-3 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
-            <AiOutlineArrowRight />
+            <Link to={"photo"}>
+                <AiOutlineArrowRight />
+            </Link>
           </div>
           <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
           <p className=' font text-xl text-slate-200 '>Toutes les photos</p>

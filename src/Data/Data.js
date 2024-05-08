@@ -20,9 +20,9 @@ import fernoux from "../assets/lucas-fernoux.webp"
 
 export const navLinks = [
     {label:"Accueil",href:"/"},
-    {label:"Boutique",href:"#about"},
-    {label:"Galerie Photo",href:"/"},
-    {label:"Sponsoring",href:"/"},
+    {label:"Boutique",href:"/shop"},
+    {label:"Galerie Photo",href:"/photo"},
+    {label:"Sponsoring",href:"/sponsoring"},
     {label:"Nous contacter",href:"/contact"},
 ]
 
@@ -156,19 +156,19 @@ export const footer = [
     {
         title:"LIENS",
         footerLinks:[  
-            {link:"Accueil"},
-            {link:"Boutique"},
-            {link:"Galerie Photo"},
-            {link:"Sponsoring"},
-            {link:"Nous contacter"},
+            {label:"Accueil", href:"/"},
+            {label:"Boutique", href:"/shop"},
+            {label:"Galerie Photo", href:"/photo"},
+            {label:"Sponsoring", href:"/sponsoring"},
+            {label:"Nous contacter", href:"/contact"},
         ]
     },
     {
         title:"PARTENAIRES",
         footerLinks:[
-            {link:"OL"},
-            {link:"Crédit Mutuel"},
-            {link:"Région Auvergne Rhône Alpes"},
+            {label:"OL", href:"/partenaire"},
+            {label:"Crédit Mutuel", href:"/partenaire"},
+            {label:"Région Auvergne Rhône Alpes", href:"/partenaire"},
         ]
     }
 ]

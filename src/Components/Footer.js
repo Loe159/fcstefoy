@@ -21,8 +21,8 @@ const Footer = ({nav}) => {
           <div key={val.title}>  
             <h1 className=' text-2xl font-medium mb-8'>{val.title}</h1>
               {val.footerLinks.map((li)=>(
-                <ul key={li.link} className=' mb-3'>
-                  <li className=' text-xl tracking-wide text-gray-400 font font-thin hover:translate-x-1 duration-300'><a href="#home">{li.link}</a></li>
+                <ul key={li.label} className=' mb-3'>
+                  <li className=' text-xl tracking-wide text-gray-400 font font-thin hover:translate-x-1 duration-300'><Link to={li.href}>{li.label}</Link></li>
                 </ul>
               ))}
           </div>
