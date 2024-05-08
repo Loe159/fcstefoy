@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Nav from './Components/Nav'
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
@@ -9,6 +9,7 @@ import Home from "./pages";
 import ContactUs from "./pages/contact";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
+import Error404 from "./pages/404";
 
 const App = () => {
 
@@ -34,8 +35,8 @@ const App = () => {
                 <Route exact path="/" element={<Home />} />
                 <Route path="/contact" element={<ContactUs />} />
                 <Route
-                    path="/contact"
-                    element={<ContactUs />}
+                    path="*"
+                    element={<Error404 />}
                 />
             </Routes>
             <Footer nav={nav}/>
