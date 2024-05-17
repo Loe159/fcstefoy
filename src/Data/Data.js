@@ -136,6 +136,50 @@ export const events =[
     },
 ]
 
+export const teams =[
+    {
+        name:"SENIOR M1",
+        widget:"6647904737d46f08d09a654c",
+    },
+    {
+        name:"SENIOR M2",
+        widget:"664792a87728c708c97c87ab",
+    },
+    {
+        name:"SENIOR M1",
+        widget:"6647904737d46f08d09a654c",
+    },
+    {
+        name:"SENIOR M2",
+        widget:"664792a87728c708c97c87ab",
+    },
+    {
+        name:"SENIOR M1",
+        widget:"6647904737d46f08d09a654c",
+    },
+    {
+        name:"SENIOR M2",
+        widget:"664792a87728c708c97c87ab",
+    },
+    {
+        name:"SENIOR M1",
+        widget:"6647904737d46f08d09a654c",
+    },
+    {
+        name:"SENIOR M2",
+        widget:"664792a87728c708c97c87ab",
+    },
+    {
+        name:"SENIOR M1",
+        widget:"6647904737d46f08d09a654c",
+    },
+    {
+        name:"SENIOR M2",
+        widget:"664792a87728c708c97c87ab",
+    },
+
+]
+
 export const blog = [
     {   img:"https://img.youtube.com/vi/ymuFO-myE_Q/maxresdefault.jpg",
         date:"23 Avril 2024",

@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages";
 import ContactUs from "./pages/contact";
+import Teams from "./pages/teams";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import Error404 from "./pages/404";
@@ -34,6 +35,7 @@ const App = () => {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/contact" element={<ContactUs />} />
+                <Route path="/equipes" element={<Teams />} />
                 <Route
                     path="*"
                     element={<Error404 />}
