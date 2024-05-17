@@ -20,6 +20,14 @@ const Client = () => {
     const index = next ? 0 : currSlide + 1
     setCurrSlide(index)
   }
+
+  const loadImages = () => {
+    client.map((val, index) => {
+      const img = new Image();
+      img.src = val.img;
+    })
+  }
+
   setTimeout(() => {
     console.log("Delayed for 1 second.");
   }, "1000");
@@ -27,6 +35,8 @@ const Client = () => {
   const dotClick=(i)=>{
     setCurrSlide(i)
   }
+
+  loadImages();
 
   return (
     <section className=' w-full min-h-screen'>

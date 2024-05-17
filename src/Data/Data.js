@@ -152,6 +152,87 @@ export const blog = [
     }
 ]
 
+export const contact = [
+    {
+        "role": "PRESIDENT",
+        "name": "FABIEN MEZARD",
+        "mail": "fabmezard@gmail.com",
+        "phone": null
+    },
+    {
+        "role": "PRÉSIDENT DÉLÉGUÉ",
+        "name": "LUCAS FERNOUX",
+        "mail": "lucas.fernoux@gmail.com",
+        "phone": "07 61 09 46 75"
+    },
+    {
+        "role": "VICE-PRESIDENT",
+        "name": "HOSNI SASSI",
+        "mail": "hosnisassi.1905@gmail.com",
+        "phone": null
+    },
+    {
+        "role": "SECRETAIRE GENERALE",
+        "name": "ELISABETH PATO PICHARD",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "VICE-SECRETAIRE",
+        "name": "LOREM IPSUM",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "TRESORIER",
+        "name": "DOMINIQUE VINDRY",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "TRESORIÈRE ADJOINTE",
+        "name": "FABIENNE HENDRICKX",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "CORRESPONDANT",
+        "name": "MIREILLE SINA",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "COORDINATEUR FOOT À 11",
+        "name": "LOREM IPSUM",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "CORDINATEUR FOOT ANIMATION / ÉCOLE DE FOOT",
+        "name": "LOREM IPSUM",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "COORDINATEUR FOOT LOISIR",
+        "name": "LOREM IPSUM",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "REFERENT TOURNOI",
+        "name": "LOREM IPSUM",
+        "mail": null,
+        "phone": null
+    },
+    {
+        "role": "REFERENT SECURITE",
+        "name": "LUDOVIC PICHARD",
+        "mail": null,
+        "phone": null
+    },
+]
+
 export const footer = [
     {
         title:"LIENS",

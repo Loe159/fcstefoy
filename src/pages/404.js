@@ -13,7 +13,7 @@ const Error404 = () => {
                             <span className="sr-only">Erreur</span>404
                         </h2>
                         <p className="text-2xl font-semibold md:text-3xl mb-8">Désolé, cette page n'existe pas...</p>
-                        <Link to={""} className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
+                        <Link to={""} className='font-semibold py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
                             <div className=' buttonDiv'></div>
                             <span className='buttonSpan'>RETOURNER À L'ACCUEIL</span>
                         </Link>
