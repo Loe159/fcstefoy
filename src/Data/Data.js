@@ -2,12 +2,10 @@ import {LiaHandshakeSolid} from "react-icons/lia";
 import {PiGraphLight} from "react-icons/pi";
 import {BsGraphUp, BsHeartPulse} from "react-icons/bs"
 
-import img1 from "../assets/img-9.jpg"
 import img5 from "../assets/yanis.webp"
 
 import img6 from "../assets/noemie-lise.webp"
 import img7 from "../assets/ludovic.webp"
-import img8 from "../assets/sebastien.webp"
 
 import mezard from "../assets/fabien-mezard.webp"
 import sassi from "../assets/hosni-sassi.png"
@@ -108,76 +106,120 @@ export const events =[
         month:"5",
         date:"15/05/2025",
         titre:"Tournoi U11",
-        time:"9h-16h"
+        time:"9h-16h",
+        place: "Stade PDL"
     },
     {
         month:"5",
         date:"18/05/2025",
         titre:"Tournoi U7",
-        time:"9h-16h"
+        time:"9h-16h",
+        place: "Stade PDL"
     },
     {
         month:"5",
         date:"19/05/2025",
         titre:"Tournoi U9",
-        time:"9h-16h"
+        time:"9h-16h",
+        place: "Stade PDL"
     },
     {
         month:"6",
         date:"02/06/2025",
         titre:"Tournoi U13",
-        time:"9h-16h"
+        time:"9h-16h",
+        place: "Stade PDL"
     },
     {
         month:"6",
         date:"16/06/2025",
         titre:"Tournoi Féminine",
-        time:"9h-16h"
+        time:"9h-16h",
+        place: "Stade PDL"
     },
 ]
 
 export const teams =[
     {
-        name:"SENIOR M1",
-        widget:"6647904737d46f08d09a654c",
+        name :"SENIOR M1",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M2",
-        widget:"664792a87728c708c97c87ab",
+        name :"SENIOR M2",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M1",
-        widget:"6647904737d46f08d09a654c",
+        name :"U20 M1",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M2",
-        widget:"664792a87728c708c97c87ab",
+        name :"U20 M2",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M1",
-        widget:"6647904737d46f08d09a654c",
+        name :"U18 F1",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M2",
-        widget:"664792a87728c708c97c87ab",
+        name :"U17 M1",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M1",
-        widget:"6647904737d46f08d09a654c",
+        name :"U17 M2",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M2",
-        widget:"664792a87728c708c97c87ab",
+        name :"U17 M3",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M1",
-        widget:"6647904737d46f08d09a654c",
+        name :"U15 M1",
+        widget: "664792a87728c708c97c87ab"
     },
     {
-        name:"SENIOR M2",
-        widget:"664792a87728c708c97c87ab",
+        name :"U15 M2",
+        widget: "664792a87728c708c97c87ab"
     },
-
+    {
+        name :"U15 F1",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"U13 M1",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"U13 M2",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"U13 M3",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"U13 F1",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"U12 M1",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"VETERAN M1",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"LOISIR M1",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"LOISIR M2",
+        widget: "664792a87728c708c97c87ab"
+    },
+    {
+        name :"LOISIR M3",
+        widget: "664792a87728c708c97c87ab"
+    }
 ]
 
 export const blog = [

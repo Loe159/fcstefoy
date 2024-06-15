@@ -34,7 +34,7 @@ const Nav = ({nav}) => {
 
         <Link to={"https://intra.fcsaintefoyleslyon.fr/"} target={"_blank"} className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm max-lg:hidden font-semibold'>
           <div className=' buttonDiv'></div>
-          <span className='buttonSpan'>VIE DU CLUB</span>
+          <span className='buttonSpan'>ACCÈS ADHÉRENT</span>
         </Link>
       </nav>
     </header>

@@ -32,9 +32,9 @@ const HeroSection = () => {
           <h1>BIENVENUE</h1>
         </div>
 
-        <Link to={"/contact"} className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
+        <Link to={"/classements"} className=' py-4 px-7 text-xl group relative text-white bg-[#d73523] rounded-sm'>
           <div className=' buttonDiv'></div>
-          <span className='buttonSpan'>DEVENIR LICENCIÉ</span>
+          <span className='buttonSpan'>Consulter nos classements</span>
         </Link>
       </motion.div>
       <motion.div

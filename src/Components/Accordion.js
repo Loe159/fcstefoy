@@ -62,13 +62,13 @@ export default function AccordionBasicExample() {
                         </p>
                     </TECollapse>
                 </div>
-                <div className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                <div className="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
                     <h2 className="mb-0" id="headingOne">
                         <button
                             className={`${
                                 activeElement === "element2" &&
                                 `text-primary [box-shadow:inset_0_-1px_0_rgba(229,231,235)]`
-                            } group relative flex w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none text-xl`}
+                            } group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none text-xl`}
                             type="button"
                             onClick={() => handleClick("element2")}
                             aria-expanded="true"
@@ -108,13 +108,13 @@ export default function AccordionBasicExample() {
                         </p>
                     </TECollapse>
                 </div>
-                <div className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                <div className="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
                     <h2 className="mb-0" id="headingOne">
                         <button
                             className={`${
                                 activeElement === "element3" &&
                                 `text-primary [box-shadow:inset_0_-1px_0_rgba(229,231,235)]`
-                            } group relative flex w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none text-xl`}
+                            } group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none text-xl`}
                             type="button"
                             onClick={() => handleClick("element3")}
                             aria-expanded="true"

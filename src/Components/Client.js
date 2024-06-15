@@ -25,6 +25,7 @@ const Client = () => {
     client.map((val, index) => {
       const img = new Image();
       img.src = val.img;
+      return img;
     })
   }
 

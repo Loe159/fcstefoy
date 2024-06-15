@@ -1,11 +1,4 @@
 import React from "react";
-import Accordion from "../Components/Accordion";
-import {Swiper, SwiperSlide} from "swiper/react";
-import {Autoplay} from "swiper/modules";
-import {blog, teamMembers} from "../Data/Data";
-import {Link} from "react-router-dom";
-
-import {contact} from "../Data/Data";
 import Scores from "../Components/Scores";
 
 

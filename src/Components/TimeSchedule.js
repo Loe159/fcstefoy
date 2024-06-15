@@ -26,15 +26,17 @@ const TimeSchedule = () => {
           <button onClick={()=>setActive("6")} className={`${active === "6" ? "bg-[#d73523] text-white" : 'bg-gray-50'} py-4 px-4 text-2xl font-semibold max-lg:py-3 max-lg:px-2 max-sm:text-lg`}>Juin</button>
       </div>
 
-      <div className=' grid grid-cols-5 gap-4 w-[80%] mt-10 max-xl:w-[100%] max-lg:grid-cols-2 max-sm:grid-cols-1 m-auto duration-300'>
+      <div className=' grid grid-cols-5 gap-4 w-[80%] mt-10 max-xl:w-[100%] max-lg:grid-cols-3 max-sm:grid-cols-2 m-auto duration-300'>
 
           {events.map((val)=> (
                   <div
                       className={`${active === val.month ? "block" : "hidden"} group hover:bg-[#d73523] bg-gray-50 shadow px-6 py-10 text-center h-[250px] max-lg:h-[270px] max-sm:h-[250px]`}>
-                      <p className={` text-lg bg-black group-hover:bg-white group-hover:text-black text-center max-w-[80%] m-auto py-1 mt-4 max-lg:max-w-[35%] text-white`}>{val.date}</p>
+                      <p className={` text-lg bg-black group-hover:bg-white group-hover:text-black text-center m-auto py-1 mt-4 sm:max-w-[80%] text-white`}>{val.date}</p>
                       <h1 className={`text-black mt-5 group-hover:text-white text-3xl`}>{val.titre}</h1>
                       <p className={` text-black group-hover:text-white text-lg`}><span
                           className={`text-slate-500 group-hover:text-white`}>{val.time}</span></p>
+                      <p className={` text-black group-hover:text-white text-lg`}><span
+                          className={`text-slate-500 group-hover:text-white`}>{val.place}</span></p>
                   </div>
               ))}
       </div>
