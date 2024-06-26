@@ -35,7 +35,7 @@ const App = () => {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/contact" element={<ContactUs />} />
-                {/*<Route path="/classements" element={<Teams />} />*/}
+                <Route path="/classements" element={<Teams />} />
                 <Route
                     path="*"
                     element={<Error404 />}

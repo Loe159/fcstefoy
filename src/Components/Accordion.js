@@ -16,7 +16,7 @@ export default function AccordionBasicExample() {
     return (
         <>
             <div id="accordionExample">
-                <div className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                <div className="rounded-t-lg border border-neutral-200 bg-white">
                     <h2 className="mb-0" id="headingOne">
                         <button
                             className={`${
@@ -33,8 +33,8 @@ export default function AccordionBasicExample() {
                                 className={`${
                                     activeElement === "element1"
                                         ? `rotate-[-180deg] -mr-1`
-                                        : `rotate-0 fill-[#212529]  dark:fill-white`
-                                } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none dark:fill-blue-300`}
+                                        : `rotate-0 fill-[#212529]`
+                                } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none`}
                             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ export default function AccordionBasicExample() {
                         </p>
                     </TECollapse>
                 </div>
-                <div className="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                <div className="border border-t-0 border-neutral-200 bg-white">
                     <h2 className="mb-0" id="headingOne">
                         <button
                             className={`${
@@ -79,8 +79,8 @@ export default function AccordionBasicExample() {
                                 className={`${
                                     activeElement === "element2"
                                         ? `rotate-[-180deg] -mr-1`
-                                        : `rotate-0 fill-[#212529]  dark:fill-white`
-                                } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none dark:fill-blue-300`}
+                                        : `rotate-0 fill-[#212529]`
+                                } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none`}
                             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export default function AccordionBasicExample() {
                         </p>
                     </TECollapse>
                 </div>
-                <div className="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                <div className="border border-t-0 border-neutral-200 bg-white">
                     <h2 className="mb-0" id="headingOne">
                         <button
                             className={`${
@@ -125,8 +125,8 @@ export default function AccordionBasicExample() {
                                 className={`${
                                     activeElement === "element3"
                                         ? `rotate-[-180deg] -mr-1`
-                                        : `rotate-0 fill-[#212529]  dark:fill-white`
-                                } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none dark:fill-blue-300`}
+                                        : `rotate-0 fill-[#212529]`
+                                } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none`}
                             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

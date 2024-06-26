@@ -22,10 +22,12 @@ const Gallery = () => {
       <div className=' group h-full w-full relative overflow-hidden bg-gallery-pattern2 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:w-full after:h-full after:bg-gradient-to-r from-black bg-cover bg-center'>
       
         <div className='w-full absolute top-[50%] left-[-50%] opacity-0 group-hover:left-[50%] group-hover:opacity-[1] translate-x-[-50%] translate-y-[-50%] text-center duration-300 z-10 '>
-          <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
-            <AiOutlineArrowRight />
-          </div>
-          <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+            <Link to={"https://intra.fcsaintefoyleslyon.fr/?dir=Galerie%20Photo/Stage%20de%20P%C3%A2ques%20-%20Piscine/"} target={"_blank"}>
+                <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
+                    <AiOutlineArrowRight />
+                </div>
+                <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+            </Link>
           <p className=' font text-xl text-slate-200 '>Stage de Pâques - Piscine</p>
         </div>
       </div>
@@ -33,10 +35,12 @@ const Gallery = () => {
       <div className='group h-full w-full relative overflow-hidden bg-gallery-pattern3 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:w-full after:h-full after:bg-gradient-to-r from-black bg-cover bg-center'>
       
         <div className='w-full absolute top-[50%] left-[-50%] opacity-0 group-hover:left-[50%] group-hover:opacity-[1] translate-x-[-50%] translate-y-[-50%] text-center duration-300 z-10 '>
-          <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
-            <AiOutlineArrowRight />
-          </div>
-          <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+            <Link to={"https://intra.fcsaintefoyleslyon.fr/?dir=Galerie%20Photo/Stage%20de%20P%C3%A2ques%20-%20Accrobranche/"} target={"_blank"}>
+                <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
+                    <AiOutlineArrowRight />
+                </div>
+                <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+            </Link>
           <p className=' font text-xl text-slate-200 '>Stage de Pâques - Accrobranche</p>
         </div>
       </div>
@@ -44,10 +48,12 @@ const Gallery = () => {
       <div className='group  h-full w-full relative overflow-hidden bg-gallery-pattern4 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:w-full after:h-full after:bg-gradient-to-r from-black bg-cover bg-center'>
 
         <div className='w-full absolute top-[50%] left-[-50%] opacity-0 group-hover:left-[50%] group-hover:opacity-[1] translate-x-[-50%] translate-y-[-50%] text-center duration-300 z-10 '>
-          <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
-            <AiOutlineArrowRight />
-          </div>
-          <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+          <Link to={"https://intra.fcsaintefoyleslyon.fr/?dir=Galerie%20Photo/Stage%20de%20P%C3%A2ques%20-%20Futsal/"} target={"_blank"}>
+                <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
+                    <AiOutlineArrowRight />
+                </div>
+                <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+            </Link>
           <p className=' font text-xl text-slate-200 '>Stage de Pâques - Futsal</p>
         </div>
       </div>
@@ -55,10 +61,12 @@ const Gallery = () => {
       <div className='group  h-full w-full relative overflow-hidden bg-gallery-pattern5 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:w-full after:h-full after:bg-gradient-to-r from-black bg-cover bg-center'>
         
         <div className='w-full absolute top-[50%] left-[-50%] opacity-0 group-hover:left-[50%] group-hover:opacity-[1] translate-x-[-50%] translate-y-[-50%] text-center duration-300 z-10 '>
-          <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
-            <AiOutlineArrowRight />
-          </div>
-          <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+          <Link to={"https://intra.fcsaintefoyleslyon.fr/?dir=Galerie%20Photo/Stage%20de%20P%C3%A2ques%20-%20Remise%20trophée/"} target={"_blank"}>
+                <div className=' bg-[#d73523] max-lg:mb-3 max-lg:p-2 rounded-full p-4 text-white text-2xl mb-7 w-fit m-auto cursor-pointer hover:bg-white hover:text-[#d73523] duration-300'>
+                    <AiOutlineArrowRight />
+                </div>
+                <h1 className=' text-4xl text-white font-medium mb-2'>Voir plus</h1>
+            </Link>
           <p className=' font text-xl text-slate-200 '>Stage de Pâques - Remise trophée</p>
         </div>
       </div>

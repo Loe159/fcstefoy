@@ -4,7 +4,7 @@ import {BsGraphUp, BsHeartPulse} from "react-icons/bs"
 
 import img5 from "../assets/yanis.webp"
 
-import img6 from "../assets/noemie-lise.webp"
+import img6 from "../assets/noemie-lise.jpg"
 import img7 from "../assets/ludovic.webp"
 
 import mezard from "../assets/fabien-mezard.webp"
@@ -76,7 +76,7 @@ export const teamMembers =[
     },
     {
         img:sassi,
-        role:"Vice-Président",
+        role:"Président Délégué",
         name:"Hosni SASSI"
     },
     {
@@ -96,7 +96,7 @@ export const teamMembers =[
     },
     {
         img:fernoux,
-        role:"Président Délégué",
+        role:"Vice-Président",
         name:"Lucas FERNOUX"
     },
 ]
@@ -142,83 +142,83 @@ export const events =[
 export const teams =[
     {
         name :"SENIOR M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667985ee9bd15b08cf62f802"
     },
     {
         name :"SENIOR M2",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667987909bd15b08cde34eed"
     },
     {
         name :"U20 M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667987aa0844ac08ca14c038"
     },
     {
         name :"U20 M2",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667987ba9bd15b08cf62f807"
     },
     {
         name :"U18 F1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667987cd0844ac08c46405f3"
     },
     {
         name :"U17 M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667987e79bd15b08d1b0d351"
     },
     {
         name :"U17 M2",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667988290844ac08ca14c03a"
     },
     {
         name :"U17 M3",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667988a80844ac08c57b59d4"
     },
     {
         name :"U15 M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667988f80844ac08c46405f5"
     },
     {
         name :"U15 M2",
-        widget: "664792a87728c708c97c87ab"
+        widget: "6679890e0844ac08c57b59d7"
     },
     {
         name :"U15 F1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667989249bd15b08d28aad8c"
     },
     {
         name :"U13 M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "667989320844ac08c57b59d8"
     },
     {
         name :"U13 M2",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798a2d0844ac08c606d911"
     },
     {
         name :"U13 M3",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798a469bd15b08cf62f80b"
     },
     {
         name :"U13 F1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798a8e0844ac08c46405f9"
     },
     {
         name :"U12 M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798a790844ac08ca14c03e"
     },
     {
         name :"VETERAN M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798aa00844ac08c606d913"
     },
     {
         name :"LOISIR M1",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798ab30844ac08c606d914"
     },
     {
         name :"LOISIR M2",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798ac09bd15b08cde34ef6"
     },
     {
         name :"LOISIR M3",
-        widget: "664792a87728c708c97c87ab"
+        widget: "66798acd9bd15b08d1b0d355"
     }
 ]
 
@@ -242,14 +242,14 @@ export const contact = [
     {
         "role": "PRESIDENT",
         "name": "FABIEN MEZARD",
-        "mail": "fabmezard@gmail.com",
+        "mail": null,
         "phone": null
     },
     {
         "role": "PRÉSIDENT DÉLÉGUÉ",
         "name": "LUCAS FERNOUX",
-        "mail": "lucas.fernoux@gmail.com",
-        "phone": "07 61 09 46 75"
+        "mail": null,
+        "phone": null
     },
     {
         "role": "VICE-PRESIDENT",
